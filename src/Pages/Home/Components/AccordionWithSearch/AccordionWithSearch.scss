@@ -1,0 +1,26 @@
+.accordion-with-search {
+  display: flex;
+  margin: 20px;
+  border: 1px solid #000;
+
+  &__side-filter {
+    flex: 0 0 200px;
+    margin-right: 20px;
+  }
+
+  &__list {
+    width: 600px;
+    height: 400px;
+    overflow: auto;
+    border: 1px solid #000;
+  }
+
+  &__list-titles {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr auto;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+}
